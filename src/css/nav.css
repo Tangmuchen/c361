@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    border:0px;
+    padding:0px;
+}
+#nav{
+    height:87px;
+    width:100%;
+    background:#0068c1;
+    position: relative;
+}
+#nav::after{
+    content:"";
+    display:block;
+    clear: both;
+}
+#navin{
+    width:80%;
+    height:100%;
+    margin-left:10%;
+}
+#navpics{
+    float: left;
+    width:40%;
+    height:100%;
+}
+#np1{
+    float: left;
+    height:60px;
+    width:auto;
+    margin-top:13.5px;
+}
+#np2{
+    float: left;
+    height:32px;
+    width:auto;
+    margin-top:41.5px;
+}
+#links{
+    float: left;
+    width:60%;
+    height:100%;
+}
+#links>ul{
+    float:left;
+    width:100%;
+
+}
+#links>ul>li{
+    float: left;
+    height:100%;
+    width:14.2%;
+    text-align: center;
+    list-style-type: none;
+    color:#fff;
+    line-height:87px;
+    z-index: 100;
+    position: relative;
+}
+#links>ul>li a{
+    color:#fff;
+}
+#links>ul>li:hover{
+    color:#fff;
+    background:#03549b;
+}
+a:link {
+    color:#fff;
+    text-decoration: none;
+}
+#links>ul>li>ul{
+    width:100%;
+    height:auto;
+    list-style-type: none;
+    color:#fff;
+    display: none;
+}
+#links>ul>li>ul>li{
+    width:100%;
+    height:auto;
+    line-height:40px;
+    padding:0px -20px;
+    margin:5px 0px;
+    list-style-type: none;
+    color:#fff;
+    z-index: 100;
+}
+#links>ul>li>ul>li:hover{
+    background:#0068c1;
+}

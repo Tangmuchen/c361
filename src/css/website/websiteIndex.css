@@ -1,0 +1,47 @@
+.webbox{
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 1px;
+    background:  #ccc;
+}
+.webbox>tr>td{
+    background: #fff;
+}
+.webbox-left{
+    width: 25%;
+    text-align: center;
+}
+.webbox-right{
+   padding-left:10px ;
+}
+.webbox-button{
+    display: block;
+    margin: 15px auto;
+    padding: 11px 56px;
+    width: 85px;
+    height: 30px;
+    border: 1px #aaa solid;
+    border-radius: 10px;
+    font: bold 1.5em 'Trebuchet MS',Arial, Helvetica;
+    color: #333;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(0, 0, 0, 0.05)), color-stop(.25, transparent), to(transparent)), -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(0, 0, 0, 0.05)), color-stop(.25, transparent), to(transparent)), -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, rgba(0, 0, 0, 0.05))), -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, rgba(0, 0, 0, 0.05)));
+    background-size: 3px 3px;
+    background-color: #ddd;
+   
+}
+.webbox-button:hover{
+    box-shadow:0 -1px 10px rgba(0,0,0,0.1);
+    color: rgb(230, 156, 19);
+    background-color: #ccc;
+}
+.webtatle{
+    margin-bottom: 20px;
+    color:#f00;
+}
+.webimg{
+    width: 25%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 10px 0;
+}

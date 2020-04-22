@@ -1,0 +1,245 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+.zhutui {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background: #FFFFFF;
+}
+.title h2 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #0E92D0;
+  text-align: center;
+}
+.type {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+.type ul li {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 107px;
+  padding-right: 107px;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  float: left;
+}
+.type ul li.bg {
+  background: url('./../img/type_bg.jpg') repeat-x;
+}
+.qiehuan {
+  width: 1220px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.qiehuan .list {
+  width: 285px;
+  height: auto;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+.qiehuan .list .box {
+  width: 283px;
+  border: 1px solid #cccccc;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background: #FFFFFF;
+  text-align: center;
+}
+.qiehuan .list .box dl dt {
+  width: 233px;
+  height: 86px;
+  line-height: 86px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: url('./../img/index_gf_bg2.jpg') no-repeat;
+}
+.qiehuan .list .box dl dd {
+  width: 233px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: #CCCCCC dashed 1px;
+  text-align: center;
+  font-size: 15px;
+}
+.qiehuan .list .box dl dd.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+}
+.qiehuan .list .box dl dd.price span {
+  font-size: 25px;
+  font-weight: bold;
+  color: #CC0000;
+}
+.qiehuan .list .box .but {
+  width: 130px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  display: block;
+  transition: all 0.3s ease-out 0s;
+  background: #FF4000;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.qiehuan .list2 .box dl dt {
+  width: 233px;
+  height: 86px;
+  line-height: 86px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #CC0000;
+  background: #fff;
+}
+.qiehuan .list3 .box dl dt {
+  width: 213px;
+  padding-left: 20px;
+  height: 86px;
+  line-height: 86px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #0B75CD;
+  text-align: left;
+  background: url('./../img/index_xj_bg.jpg') no-repeat;
+}
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
+.news {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #EFF0F1;
+}
+.newbox {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.newbox .index-news,
+.newbox .index-help {
+  width: 488px;
+  padding: 30px;
+  border: 1px solid #CCCCCC;
+  background: #FFFFFF;
+  float: left;
+}
+.newbox .index-news .title,
+.newbox .index-help .title {
+  width: 468px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 2px solid #0492e8;
+  font-size: 16px;
+}
+.newbox .index-news .title span,
+.newbox .index-help .title span {
+  float: right;
+  font-size: 15px;
+}
+.newbox .index-news .title span:hover,
+.newbox .index-help .title span:hover {
+  color: #f60;
+}
+.newbox .index-news .list ul li,
+.newbox .index-help .list ul li {
+  width: 468px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dotted #CCCCCC;
+}
+.newbox .index-news .list ul li a,
+.newbox .index-help .list ul li a {
+  color: #333;
+  font-size: 16px;
+}
+.newbox .index-news .list ul li a:hover,
+.newbox .index-help .list ul li a:hover {
+  color: #f60;
+}
+.newbox .index-news .list ul li span,
+.newbox .index-help .list ul li span {
+  float: right;
+  font-size: 14px;
+}
+.newbox .index-help {
+  float: right;
+}
+.link {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.link .link-t {
+  width: 1190px;
+  padding-left: 10px;
+  margin: 0 auto 15px auto;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  border-bottom: 2px solid #E2E2E2;
+  position: relative;
+}
+.link .link-t .line {
+  width: 100px;
+  height: 2px;
+  background: #CC0000;
+  position: absolute;
+  left: 0px;
+  bottom: -2px;
+}
+.link .link-list {
+  width: 1200px;
+  margin: 0 auto;
+}
+.link .link-list ul {
+  overflow: hidden;
+}
+.link .link-list ul li {
+  padding: 5px 10px;
+  float: left;
+}
+.link .link-list ul li a {
+  color: #333;
+}
+.link .link-list ul li a:hover {
+  color: #f60;
+}

@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    border:0px;
+    padding:0px;
+}
+#header{
+    height:40px;
+    width:100%;
+    background:#013d71;
+    color:#333;
+    position: relative;
+}
+#header::after{
+    content:"";
+    display:block;
+    clear: both;
+}
+#headerin{
+    width:80%;
+    height:100%;
+    margin-left:10%;
+}
+#hdileft{
+    float: left;
+    width:auto;
+    height:100%;
+    line-height:40px;
+    color:#fff;
+    font-size: 14px;
+}
+#hdiright{
+    float:right;
+    width:auto;
+    height:100%;
+    line-height:40px;
+}
+#hdiright>a{
+    float:right;
+    margin-right:30px;
+    color: #fff;
+}

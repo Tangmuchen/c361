@@ -1,0 +1,58 @@
+ .leftnav{
+    width: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height: auto;
+    background: #41a9fe;
+    float: left;
+     }
+ .lnul{
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    }
+ .lnli{
+   
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #FFFFFF;
+    border-bottom: 1px dotted #FFFFFF;
+    list-style-type: none;
+    background-image: url(/img/about_left_icon.png) 15px 16px no-repeat;
+    }
+.dian{
+    width: 8px;
+    height: 8px;
+    background: #FFF;
+    border-radius: 50%;
+    float: left;
+    margin: 16px 10px 0px ; 
+}
+ .lnla{
+    color: #FFF;
+    font-size: 15px;
+    }
+    
+    .couConents{
+        width: 1200px;
+        margin: 0 auto;
+        height: auto;
+        overflow: hidden;
+    }
+    .courseRight{
+        width: 888px;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px; 
+        margin-bottom: 30px; 
+        height: auto;
+        border: 1px solid #CCCCCC;
+        font-size: 15px;
+        line-height: 180%;
+        float: right;
+    }

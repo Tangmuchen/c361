@@ -1,0 +1,66 @@
+a {
+  color: #333;
+}
+.price {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #EFEEF2;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.price ._title {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+.price table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+.price table td {
+  border: 1px solid #ccc;
+}
+.price .title {
+  font-size: 18px;
+  line-height: 18px;
+}
+.search table {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.search table .title1 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #0492e8;
+  font-weight: bold;
+}
+.search table .title2 {
+  width: 888px;
+  height: 58px;
+  line-height: 58px;
+  border: 1px solid #0492e8;
+  padding-left: 10px;
+  font-size: 25px;
+  color: #C0C0C0;
+}
+.search table .title2::placeholder {
+  color: #C0C0C0;
+}
+.search table .searchbut {
+  width: 160px;
+  height: 60px;
+  cursor: pointer;
+  vertical-align: middle;
+  background: url('./../img/domain_search2.jpg');
+}
+.line {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}

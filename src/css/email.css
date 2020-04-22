@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.email{
+    position: relative;
+    width:100%;
+    overflow: hidden;
+}
+.email_left{
+   float: left;
+   width:220px;
+   background:rgb(65, 169, 254);
+   margin-left:15px;
+}
+.email_right{
+    width: 80%;
+    height:auto;
+    float: left;
+    /* overflow: hidden; */
+    margin-left:20px;
+}

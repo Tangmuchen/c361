@@ -1,0 +1,12 @@
+
+*{
+    margin:0px;
+    border:0px;
+    padding:0px;
+}
+#dolitbanner{
+    width: 100%;
+    height: 300px;
+    background: url(https://www.c361.com/img/hostimg/domain/yuming_banner.jpg) no-repeat center;
+    margin-bottom: 30px;
+}

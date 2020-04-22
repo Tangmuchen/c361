@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    border:0px;
+    padding:0px;
+}
+#incase{
+    height:539px;
+    width:100%;
+    position: relative;
+    padding:0px 0px 50px;
+}
+.incase::after{
+    content:"";
+    display:block;
+    clear: both;
+}
+#incasein{
+    width:80%;
+    height:100%;
+    margin-left:10%;
+}
+.index_case_tit {
+    width: 100%;
+    padding-top: 40px;
+    background: #0492e8;
+    padding-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.index_case_list {
+    width: 1200px;
+    margin: 40px auto 0px auto;
+}
+.index_case_list li {
+    width: 198px;
+    height: 198px;
+    border: 1px solid #CCCCCC;
+    float: left;
+}
