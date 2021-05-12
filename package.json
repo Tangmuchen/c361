@@ -34,6 +34,6 @@
   },
   "devDependencies": {
     "react-router-dom": "^5.1.2",
-    "swiper": "^5.3.7"
+    "swiper": "^6.5.1"
   }
 }
